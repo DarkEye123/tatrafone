@@ -34,5 +34,5 @@
 <property name="size" value="60"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="i_client_req" name="#E9E371" type="dataModelerEntry" outId="o_client_req" value="com.tatrafone.dataobjects.ClientRequest" id="RequestFromClient"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="request_from_client" value="com.tatrafone.dataobjects.ClientRequest" id="RequestFromClient"/>
 </form>
