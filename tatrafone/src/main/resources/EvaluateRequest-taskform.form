@@ -45,7 +45,7 @@
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;SelectBox4quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="trol;,mo
+<property name="onChangeScript" value="{trol;,mo}
 "/>
 </field>
 <field position="5" name="1558101689" type="InputText" id="1558101689">
