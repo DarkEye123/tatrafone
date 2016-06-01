@@ -61,5 +61,6 @@
 <property name="hideContent" value="false"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="i_client_request" name="#E9E371" type="dataModelerEntry" outId="o_status_eval" value="com.tatrafone.dataobjects.ClientRequest" id="RequestFromClient"/>
+<dataHolder inputId="i_client_request" name="#E9E371" type="dataModelerEntry" outId="o_client_request" value="com.tatrafone.dataobjects.ClientRequest" id="RequestFromClient"/>
+<dataHolder inputId="i_status_eval" name="#E9E371" type="dataModelerEntry" outId="o_status_eval" value="com.tatrafone.dataobjects.ClientRequest" id="StatusEvaluation"/>
 </form>
