@@ -1,0 +1,38 @@
+
+<form id="475851393">
+<property name="name" value="tatrafone.Alliancemembershipregistration-taskform.form"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<field position="0" name="CompanyNameField" type="InputText" id="577629847">
+<property name="fieldRequired" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Name of the Companyquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Name of the company needs to be filledquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Name of the company needs to be filledquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="CompanyDescriptionField" type="InputTextArea" id="2106044399">
+<property name="fieldRequired" value="true"/>
+<property name="height" value="20"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Comany Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Description was not filledquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fill description of your companyquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="60"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="GainField" type="InputTextArea" id="428509995">
+<property name="fieldRequired" value="true"/>
+<property name="height" value="5"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Why should we accept you?quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Reasons for admit into partnershipquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="60"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="i_client_req" name="#E9E371" type="dataModelerEntry" outId="o_client_req" value="com.tatrafone.dataobjects.ClientRequest" id="RequestFromClient"/>
+</form>
