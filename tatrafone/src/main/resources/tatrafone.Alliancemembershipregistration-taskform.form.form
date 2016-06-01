@@ -1,7 +1,8 @@
 
 <form id="475851393">
-<property name="name" value="EvaluateRequest-taskform.form"/>
-<property name="displayMode" value="default"/>
+<property name="name" value="tatrafone.Alliancemembershipregistration-taskform.form"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
 <field position="0" name="CompanyNameField" type="InputText" id="577629847">
 <property name="fieldRequired" value="true"/>
