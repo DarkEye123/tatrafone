@@ -42,14 +42,18 @@
 </field>
 <field position="3" name="173702123" type="SelectBox" id="173702123">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;SelectBox3quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;SelectBox3quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="inputBinding" value="i_status_eval"/>
+<property name="outputBinding" value="o_status_eval"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="4" name="1816342190" type="SelectBox" id="1816342190">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;SelectBox4quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
+<property name="inputBinding" value="i_status_eval"/>
+<property name="outputBinding" value="o_status_eval"/>
 <property name="fieldClass" value="java.lang.String"/>
 <property name="onChangeScript" value="{trol;,mo} "/>
 </field>
