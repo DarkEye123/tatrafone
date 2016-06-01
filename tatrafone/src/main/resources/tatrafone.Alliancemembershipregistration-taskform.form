@@ -12,7 +12,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="outputBinding" value="request_from_client.companyName"/>
+<property name="outputBinding" value="RequestFromClient.companyName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="CompanyDescriptionField" type="InputTextArea" id="2106044399">
