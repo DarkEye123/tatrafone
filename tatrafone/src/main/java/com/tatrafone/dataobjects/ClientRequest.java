@@ -11,8 +11,53 @@ public class ClientRequest implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   @org.kie.api.definition.type.Label(value = "Company Name")
+   private java.lang.String companyName;
+   @org.kie.api.definition.type.Label(value = "Company Description")
+   private java.lang.String companyDescription;
+   @org.kie.api.definition.type.Label(value = "Gain from Partnership")
+   private java.lang.Integer coopGain;
+
    public ClientRequest()
    {
+   }
+
+   public java.lang.String getCompanyName()
+   {
+      return this.companyName;
+   }
+
+   public void setCompanyName(java.lang.String companyName)
+   {
+      this.companyName = companyName;
+   }
+
+   public java.lang.String getCompanyDescription()
+   {
+      return this.companyDescription;
+   }
+
+   public void setCompanyDescription(java.lang.String companyDescription)
+   {
+      this.companyDescription = companyDescription;
+   }
+
+   public java.lang.Integer getCoopGain()
+   {
+      return this.coopGain;
+   }
+
+   public void setCoopGain(java.lang.Integer coopGain)
+   {
+      this.coopGain = coopGain;
+   }
+
+   public ClientRequest(java.lang.String companyName,
+         java.lang.String companyDescription, java.lang.Integer coopGain)
+   {
+      this.companyName = companyName;
+      this.companyDescription = companyDescription;
+      this.coopGain = coopGain;
    }
 
 }
