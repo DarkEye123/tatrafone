@@ -11,11 +11,12 @@ public class ClientRequest implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Company Name")
+   @org.kie.api.definition.type.Label("Company Name")
    private java.lang.String companyName;
-   @org.kie.api.definition.type.Label(value = "Company Description")
+   @org.kie.api.definition.type.Label("Company Description")
    private java.lang.String companyDescription;
-   @org.kie.api.definition.type.Label(value = "Gain from Partnership")
+   @org.kie.api.definition.type.Label("Gain from Partnership")
+   @org.kie.api.definition.type.Description("Reason why should be client accepted as member of the alliance")
    private java.lang.Integer coopGain;
 
    public ClientRequest()
