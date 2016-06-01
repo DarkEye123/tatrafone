@@ -65,7 +65,7 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Here could be defined a reason why is client accepted or not.quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="reasonOfDecision"/>
+<property name="outputBinding" value="o_status_eval/reasonOfDecision"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="i_client_request" name="#E9E371" type="dataModelerEntry" outId="o_client_request" value="com.tatrafone.dataobjects.ClientRequest" id="RequestFromClient"/>
