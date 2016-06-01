@@ -17,7 +17,7 @@ public class ClientRequest implements java.io.Serializable
    private java.lang.String companyDescription;
    @org.kie.api.definition.type.Label("Gain from Partnership")
    @org.kie.api.definition.type.Description("Reason why should be client accepted as member of the alliance")
-   private java.lang.Integer coopGain;
+   private String coopGain;
 
    public ClientRequest()
    {
@@ -43,18 +43,18 @@ public class ClientRequest implements java.io.Serializable
       this.companyDescription = companyDescription;
    }
 
-   public java.lang.Integer getCoopGain()
+   public java.lang.String getCoopGain()
    {
       return this.coopGain;
    }
 
-   public void setCoopGain(java.lang.Integer coopGain)
+   public void setCoopGain(java.lang.String coopGain)
    {
       this.coopGain = coopGain;
    }
 
    public ClientRequest(java.lang.String companyName,
-         java.lang.String companyDescription, java.lang.Integer coopGain)
+         java.lang.String companyDescription, java.lang.String coopGain)
    {
       this.companyName = companyName;
       this.companyDescription = companyDescription;
