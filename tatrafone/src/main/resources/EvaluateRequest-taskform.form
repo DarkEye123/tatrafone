@@ -40,8 +40,7 @@
 <property name="rangeFormula" value="{yes, no}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value="yes"/>
-<property name="inputBinding" value="i_status_eval/decision"/>
+<property name="defaultValueFormula" value="{yes}"/>
 <property name="outputBinding" value="o_status_eval/decision"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
