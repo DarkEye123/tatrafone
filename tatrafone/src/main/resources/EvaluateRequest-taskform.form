@@ -56,4 +56,5 @@
 </field>
 <dataHolder inputId="i_client_request" name="#E9E371" type="dataModelerEntry" outId="o_client_request" value="com.tatrafone.dataobjects.ClientRequest" id="RequestFromClient"/>
 <dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="o_status_eval" value="com.tatrafone.dataobjects.StatusEvaluation" id="StatusEvaluation"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="o_accepted" value="java.lang.Boolean" id="accepted"/>
 </form>
