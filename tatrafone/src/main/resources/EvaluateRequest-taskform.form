@@ -44,7 +44,7 @@
 <property name="outputBinding" value="o_status_eval/decision"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="GainField" type="InputTextArea" id="428509995">
+<field position="4" name="GainField" type="InputTextArea" id="428509995">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value="5"/>
@@ -59,7 +59,7 @@
 <property name="outputBinding" value="o_client_request/coopGain"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="reasonOfDecisionField" type="InputTextArea" id="104120012">
+<field position="5" name="reasonOfDecisionField" type="InputTextArea" id="104120012">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Reasonquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -68,6 +68,15 @@
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="o_status_eval/reasonOfDecision"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="decisionField" type="CheckBox" id="1172947312">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Is client acceptable pratner?quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <dataHolder inputId="i_client_request" name="#E9E371" type="dataModelerEntry" outId="o_client_request" value="com.tatrafone.dataobjects.ClientRequest" id="RequestFromClient"/>
 <dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="o_status_eval" value="com.tatrafone.dataobjects.StatusEvaluation" id="StatusEvaluation"/>
