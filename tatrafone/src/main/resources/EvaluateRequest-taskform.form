@@ -63,6 +63,6 @@
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <dataHolder inputId="i_client_request" name="#E9E371" type="dataModelerEntry" outId="o_client_request" value="com.tatrafone.dataobjects.ClientRequest" id="RequestFromClient"/>
-<dataHolder inputId="" name="#E9E371" type="basicType" outId="o_accepted" value="java.lang.Boolean" id="accepted"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="o_acceptable" value="java.lang.Boolean" id="acceptable"/>
 <dataHolder inputId="" name="#E9E371" type="basicType" outId="o_reason" value="java.lang.Boolean" id="reason"/>
 </form>
