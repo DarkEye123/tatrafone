@@ -37,10 +37,9 @@
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="size" value="10"/>
-<property name="rangeFormula" value="{yes, no}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value="{yes}"/>
+<property name="inputBinding" value="i_status_eval/decision"/>
 <property name="outputBinding" value="o_status_eval/decision"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
