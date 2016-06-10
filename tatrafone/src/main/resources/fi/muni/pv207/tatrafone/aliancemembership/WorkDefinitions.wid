@@ -67,7 +67,7 @@ import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
     ],
     "displayName" : "StoreClientService",
     "icon" : "defaultservicenodeicon.png"
-  ]
+  ],
   
     
   [
