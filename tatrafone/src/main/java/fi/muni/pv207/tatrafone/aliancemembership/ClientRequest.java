@@ -15,6 +15,8 @@ public class ClientRequest implements java.io.Serializable
    private java.lang.String companyDescription;
    private String coopGain;
 
+   private java.lang.String email;
+
    public ClientRequest()
    {
    }
@@ -49,12 +51,24 @@ public class ClientRequest implements java.io.Serializable
       this.coopGain = coopGain;
    }
 
+   public java.lang.String getEmail()
+   {
+      return this.email;
+   }
+
+   public void setEmail(java.lang.String email)
+   {
+      this.email = email;
+   }
+
    public ClientRequest(java.lang.String companyName,
-         java.lang.String companyDescription, java.lang.String coopGain)
+         java.lang.String companyDescription, java.lang.String coopGain,
+         java.lang.String email)
    {
       this.companyName = companyName;
       this.companyDescription = companyDescription;
       this.coopGain = coopGain;
+      this.email = email;
    }
 
 }
