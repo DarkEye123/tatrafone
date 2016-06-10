@@ -4,7 +4,7 @@
 <property name="displayMode" value="aligned"/>
 <property name="labelMode" value="undefined"/>
 <property name="status" value="0"/>
-<field position="0" name="CompanyDescriptionField" type="InputTextArea" id="2106044399">
+<field position="2" name="CompanyDescriptionField" type="InputTextArea" id="2106044399">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value="3"/>
@@ -16,7 +16,7 @@
 <property name="outputBinding" value="client_request/companyDescription"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="GainField" type="InputTextArea" id="428509995">
+<field position="3" name="GainField" type="InputTextArea" id="428509995">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="height" value="3"/>
@@ -28,7 +28,7 @@
 <property name="outputBinding" value="client_request/coopGain"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="CompanyNameField" type="InputText" id="577629847">
+<field position="0" name="CompanyNameField" type="InputText" id="577629847">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Name of the Companyquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -38,6 +38,16 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="outputBinding" value="client_request/companyName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="email" type="InputTextEmail" id="1391603892">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Email Addressquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Email Address was not filled correctlyquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="client_request/email"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="client_request" value="fi.muni.pv207.tatrafone.aliancemembership.ClientRequest" id="clientrequest"/>
