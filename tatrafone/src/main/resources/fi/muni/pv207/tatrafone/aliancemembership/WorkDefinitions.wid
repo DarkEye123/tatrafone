@@ -56,13 +56,13 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
-  ]
+  ],
   
   [
     "name" : "StoreClientService",
     "parameters" : [
          "ClientDescription" : new ObjectDataType(),
-         "ResolutionDesc" : new StringDataType(),
+         "ResolutionDesc" : new StringDataType()
     ],
     "displayName" : "StoreClientService",
     "icon" : "defaultservicenodeicon.png"
