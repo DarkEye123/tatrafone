@@ -57,5 +57,23 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
   ]
+  
+  [
+    "name" : "StoreClient",
+    "parameters" : [
+        "Url" : new StringDataType(),
+         "Namespace" : new StringDataType(),
+         "Interface" : new StringDataType(),
+         "Operation" : new StringDataType(),
+         "Parameter" : new StringDataType(),
+         "Endpoint" : new StringDataType(),
+         "Mode" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "StoreClient",
+    "icon" : "defaultservicenodeicon.png"
+  ]
 
 ]
