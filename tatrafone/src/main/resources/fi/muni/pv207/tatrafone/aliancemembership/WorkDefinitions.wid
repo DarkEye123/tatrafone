@@ -59,7 +59,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   ]
   
   [
-    "name" : "StoreClient",
+    "name" : "StoreClientService",
     "parameters" : [
         "Url" : new StringDataType(),
          "Namespace" : new StringDataType(),
@@ -72,7 +72,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "results" : [
         "Result" : new ObjectDataType(),
     ],
-    "displayName" : "StoreClient",
+    "displayName" : "StoreClientService",
     "icon" : "defaultservicenodeicon.png"
   ]
 
