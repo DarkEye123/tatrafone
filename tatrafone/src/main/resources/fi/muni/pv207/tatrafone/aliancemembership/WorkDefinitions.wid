@@ -80,6 +80,20 @@ import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
     ],
     "displayName" : "ValidateEmailService",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  
+     
+  [
+    "name" : "InformClientService",
+    "parameters" : [
+         "ClientDescription" : new ObjectDataType()
+    ],
+     "results" : [
+        "Result" : new ObjectDataType()
+    ],
+    "displayName" : "InformClientService",
+    "icon" : "defaultservicenodeicon.png"
   ]
+
 
 ]
