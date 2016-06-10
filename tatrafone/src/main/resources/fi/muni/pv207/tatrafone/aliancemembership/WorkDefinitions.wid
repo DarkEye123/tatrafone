@@ -61,13 +61,8 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   [
     "name" : "StoreClientService",
     "parameters" : [
-        "Url" : new StringDataType(),
-         "Namespace" : new StringDataType(),
-         "Interface" : new StringDataType(),
-         "Operation" : new StringDataType(),
-         "Parameter" : new StringDataType(),
-         "Endpoint" : new StringDataType(),
-         "Mode" : new StringDataType()
+         "ClientDescription" : new ObjectDataType(),
+         "ResolutionDesc" : new StringDataType(),
     ],
     "results" : [
         "Result" : new ObjectDataType(),
