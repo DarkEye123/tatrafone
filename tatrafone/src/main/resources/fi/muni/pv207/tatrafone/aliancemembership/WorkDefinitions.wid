@@ -64,9 +64,6 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
          "ClientDescription" : new ObjectDataType(),
          "ResolutionDesc" : new StringDataType(),
     ],
-    "results" : [
-        "Result" : new ObjectDataType(),
-    ],
     "displayName" : "StoreClientService",
     "icon" : "defaultservicenodeicon.png"
   ]
