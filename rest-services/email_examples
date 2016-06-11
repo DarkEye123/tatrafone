@@ -1,0 +1,5 @@
+ok:
+curl --request  GET 'http://localhost:9080/services/email?email=test@test.com'
+
+not ok:
+curl --request  GET 'http://localhost:9080/services/email?email=test'
