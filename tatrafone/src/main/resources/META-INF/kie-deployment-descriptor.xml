@@ -12,6 +12,12 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.webservice.WebServiceWorkItemHandler(ksession, classLoader)</identifier>
+            <parameters/>
+            <name>WebService</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
             <parameters/>
             <name>Log</name>
@@ -24,9 +30,9 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.webservice.WebServiceWorkItemHandler(ksession, classLoader)</identifier>
+            <identifier>new fi.muni.pv207.tatrafone.processes.aliancemembership.handler.ValidateEmailServiceHandler()</identifier>
             <parameters/>
-            <name>WebService</name>
+            <name>ValidateEmailService</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
@@ -39,4 +45,5 @@
     <configurations/>
     <required-roles/>
     <remoteable-classes/>
+    <limit-serialization-classes>false</limit-serialization-classes>
 </deployment-descriptor>
