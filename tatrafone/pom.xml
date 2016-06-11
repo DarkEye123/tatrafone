@@ -19,9 +19,99 @@
       <version>6.4.0.Final</version>
     </dependency>
     <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-kie-services</artifactId>
+      <version>${version.org.kie}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-bpmn2</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
       <groupId>com.squareup.okhttp</groupId>
       <artifactId>okhttp</artifactId>
       <version>2.7.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-audit</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-workitems</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-services-api</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-human-task-audit</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-runtime-manager</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-flow-builder</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-shared-services</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-human-task-jpa</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-flow</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-human-task-core</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.jbpm</groupId>-->
+      <!--<artifactId>jbpm-services</artifactId>-->
+      <!--<version>6.4.0.Final</version>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>org.jbpm</groupId>-->
+      <!--<artifactId>jbpm-human-task</artifactId>-->
+      <!--<version>6.4.0.Final</version>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>org.jbpm</groupId>-->
+      <!--<artifactId>jbpm</artifactId>-->
+      <!--<version>6.4.0.Final</version>-->
+    <!--</dependency>-->
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-human-task-workitems</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-query-jpa</artifactId>
+      <version>6.4.0.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-persistence-jpa</artifactId>
+      <version>6.4.0.Final</version>
     </dependency>
   </dependencies>
   <repositories>
