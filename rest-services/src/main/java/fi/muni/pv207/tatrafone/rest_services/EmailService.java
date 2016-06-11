@@ -1,3 +1,5 @@
+package fi.muni.pv207.tatrafone.rest_services;
+
 import org.apache.commons.validator.routines.EmailValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

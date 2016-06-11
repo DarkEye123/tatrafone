@@ -1,3 +1,5 @@
+package fi.muni.pv207.tatrafone.rest_services;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import io.dropwizard.Application;

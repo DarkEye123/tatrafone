@@ -1,3 +1,5 @@
+package fi.muni.pv207.tatrafone.rest_services;
+
 import io.dropwizard.Configuration;
 
 /**
