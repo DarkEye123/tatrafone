@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_grk5UDAsEeaCs4W6GeK2cg" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
-  <bpmn2:itemDefinition id="_client_requestItem" structureRef="fi.muni.pv207.tatrafone.processes.aliancemembership.dataobjects.ClientRequest"/>
+  <bpmn2:itemDefinition id="_client_requestItem" structureRef="fi.muni.pv207.tatrafone.processes.alliancemembership.dataobjects.ClientRequest"/>
   <bpmn2:itemDefinition id="_acceptableItem" structureRef="Boolean"/>
   <bpmn2:itemDefinition id="_reasonItem" structureRef="String"/>
   <bpmn2:error id="fi.muni.pv207.tatrafone.validators.events.InvalidEmail" errorCode="fi.muni.pv207.tatrafone.validators.events.InvalidEmail"/>
@@ -13,7 +13,7 @@
   <bpmn2:itemDefinition id="__9698934B-4794-47C4-8B28-A2E33781E67E_ResolutionDescInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__9698934B-4794-47C4-8B28-A2E33781E67E_ClientDescriptionInputXItem" structureRef="java.lang.Object"/>
   <bpmn2:itemDefinition id="__03702620-F42B-4FCB-BE6F-4DC0B914EF76_TaskNameInputXItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__03702620-F42B-4FCB-BE6F-4DC0B914EF76_ClientDescriptionInputXItem" structureRef="fi.muni.pv207.tatrafone.processes.aliancemembership.ClientRequest"/>
+  <bpmn2:itemDefinition id="__03702620-F42B-4FCB-BE6F-4DC0B914EF76_ClientDescriptionInputXItem" structureRef="fi.muni.pv207.tatrafone.processes.alliancemembership.ClientRequest"/>
   <bpmn2:itemDefinition id="__F9C56B58-1C80-4B52-B248-45E2DDC485F7_TaskNameInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__F9C56B58-1C80-4B52-B248-45E2DDC485F7_MessageInputXItem" structureRef="String"/>
   <bpmn2:process id="tatrafone.alliance_membership_and_registration" drools:packageName="fi.muni.pv207.tatrafone.alliancemembership" drools:version="1.0" name="alliance_membership_and_registration" isExecutable="true">
@@ -201,7 +201,7 @@
       <bpmn2:outgoing>_A1A8042A-A0BF-4076-AA90-C5B20A09894B</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_grlgezAsEeaCs4W6GeK2cg">
         <bpmn2:dataInput id="_03702620-F42B-4FCB-BE6F-4DC0B914EF76_TaskNameInputX" drools:dtype="String" itemSubjectRef="__03702620-F42B-4FCB-BE6F-4DC0B914EF76_TaskNameInputXItem" name="TaskName"/>
-        <bpmn2:dataInput id="_03702620-F42B-4FCB-BE6F-4DC0B914EF76_ClientDescriptionInputX" drools:dtype="fi.muni.pv207.tatrafone.processes.aliancemembership.ClientRequest" itemSubjectRef="__03702620-F42B-4FCB-BE6F-4DC0B914EF76_ClientDescriptionInputXItem" name="ClientDescription"/>
+        <bpmn2:dataInput id="_03702620-F42B-4FCB-BE6F-4DC0B914EF76_ClientDescriptionInputX" drools:dtype="fi.muni.pv207.tatrafone.processes.alliancemembership.ClientRequest" itemSubjectRef="__03702620-F42B-4FCB-BE6F-4DC0B914EF76_ClientDescriptionInputXItem" name="ClientDescription"/>
         <bpmn2:inputSet id="_grlgfDAsEeaCs4W6GeK2cg">
           <bpmn2:dataInputRefs>_03702620-F42B-4FCB-BE6F-4DC0B914EF76_ClientDescriptionInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_03702620-F42B-4FCB-BE6F-4DC0B914EF76_TaskNameInputX</bpmn2:dataInputRefs>

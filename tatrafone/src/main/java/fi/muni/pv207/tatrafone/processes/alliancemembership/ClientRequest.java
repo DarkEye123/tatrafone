@@ -1,4 +1,4 @@
-package fi.muni.pv207.tatrafone.processes.aliancemembership;
+package fi.muni.pv207.tatrafone.processes.alliancemembership;
 
 /**
  * @author darkeye

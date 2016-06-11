@@ -50,5 +50,5 @@
 <property name="outputBinding" value="client_request/coopGain"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="client_request" value="fi.muni.pv207.tatrafone.processes.aliancemembership.ClientRequest" id="clientrequest"/>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="client_request" value="fi.muni.pv207.tatrafone.processes.alliancemembership.ClientRequest" id="clientrequest"/>
 </form>

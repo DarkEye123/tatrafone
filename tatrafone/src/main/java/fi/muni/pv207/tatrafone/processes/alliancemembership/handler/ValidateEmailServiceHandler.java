@@ -1,5 +1,5 @@
-package fi.muni.pv207.tatrafone.processes.aliancemembership.handler;
-import fi.muni.pv207.tatrafone.processes.aliancemembership.ClientRequest;
+package fi.muni.pv207.tatrafone.processes.alliancemembership.handler;
+import fi.muni.pv207.tatrafone.processes.alliancemembership.ClientRequest;
 import fi.muni.pv207.tatrafone.validators.EmailValidator;
 import org.kie.api.runtime.process.WorkItem;
 import org.kie.api.runtime.process.WorkItemHandler;
