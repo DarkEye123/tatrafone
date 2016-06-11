@@ -84,16 +84,15 @@ import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
   
      
   [
-    "name" : "InformClientService",
+    "name" : "EmailService",
     "parameters" : [
-         "ClientDescription" : new ObjectDataType()
+      "From" : new StringDataType(),
+      "To" : new StringDataType(),
+      "Subject" : new StringDataType(),
+      "Body" : new StringDataType()
     ],
-     "results" : [
-        "Result" : new ObjectDataType()
-    ],
-    "displayName" : "InformClientService",
-    "icon" : "defaultservicenodeicon.png"
+    "displayName" : "EmailService",
+    "icon" : "defaultemailicon.gif"
   ]
-
 
 ]
