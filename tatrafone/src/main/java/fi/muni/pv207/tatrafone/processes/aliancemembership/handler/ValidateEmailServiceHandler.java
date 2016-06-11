@@ -18,9 +18,10 @@ public class ValidateEmailServiceHandler implements WorkItemHandler {
         Boolean validation_success = validateEmail.validate(request.getEmail());
         HashMap<String, Object> resultMap = new HashMap<>();
         resultMap.put("Result", validation_success);
-        workItemManager.completeWorkItem(workItem.getId(), resultMap);
+        System.out.println("SOM NA " + validation_success);
         if (validation_success.equals(Boolean.FALSE))
             throw new fi.muni.pv207.tatrafone.validators.events.InvalidEmail();
+        workItemManager.completeWorkItem(workItem.getId(), resultMap);
         return;
     }
 
