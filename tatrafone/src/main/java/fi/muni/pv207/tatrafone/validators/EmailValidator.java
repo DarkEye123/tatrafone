@@ -1,5 +1,5 @@
 package fi.muni.pv207.tatrafone.validators;
-import com.squareup.okhttp.OkHttpClient ;
+import com.squareup.okhttp.OkHttpClient;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import java.io.IOException;
 public class EmailValidator {
     private String port="9080";
     private String url="/services/email";
-    private com.squareup.okhttp.OkHttpClient client = new com.squareup.okhttp.OkHttpClient();
+    private OkHttpClient client = new OkHttpClient();
 
     public EmailValidator() {
 
