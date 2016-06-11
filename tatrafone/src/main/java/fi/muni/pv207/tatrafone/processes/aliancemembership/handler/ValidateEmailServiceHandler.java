@@ -1,4 +1,5 @@
 package fi.muni.pv207.tatrafone.processes.aliancemembership.handler;
+import fi.muni.pv207.tatrafone.processes.aliancemembership.ClientRequest;
 import fi.muni.pv207.tatrafone.validators.EmailValidator;
 import org.kie.api.runtime.process.WorkItem;
 import org.kie.api.runtime.process.WorkItemHandler;
@@ -12,7 +13,7 @@ public class ValidateEmailServiceHandler implements WorkItemHandler {
     private EmailValidator validateEmail = new EmailValidator("9080", "/services/email");
 
     public void executeWorkItem(WorkItem workItem, WorkItemManager workItemManager) {
-
+        //ClientRequest request = workItem.getParameter()
     }
 
     public void abortWorkItem(WorkItem workItem, WorkItemManager workItemManager) {
