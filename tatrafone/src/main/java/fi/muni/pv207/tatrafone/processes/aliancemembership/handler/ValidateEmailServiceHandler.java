@@ -1,13 +1,9 @@
 package fi.muni.pv207.tatrafone.processes.aliancemembership.handler;
 import fi.muni.pv207.tatrafone.processes.aliancemembership.ClientRequest;
 import fi.muni.pv207.tatrafone.validators.EmailValidator;
-import org.kie.api.runtime.process.EventListener;
-import org.kie.api.task.TaskEvent;
 import org.kie.api.runtime.process.WorkItem;
 import org.kie.api.runtime.process.WorkItemHandler;
 import org.kie.api.runtime.process.WorkItemManager;
-import org.kie.api.runtime.KieRuntime;
-
 import java.util.HashMap;
 
 /**
@@ -24,7 +20,7 @@ public class ValidateEmailServiceHandler implements WorkItemHandler {
         resultMap.put("Result", validation_success);
         workItemManager.completeWorkItem(workItem.getId(), resultMap);
         if (validation_success.equals(Boolean.FALSE))
-            throw new Error("invalid_email");
+            throw new fi.muni.pv207.tatrafone.validators.events.InvalidEmail();
         return;
     }
 
