@@ -5,6 +5,7 @@
   <groupId>fi.muni.pv207.tatrafone</groupId>
   <artifactId>tatrafone</artifactId>
   <version>1.0</version>
+  <packaging>jar</packaging>
   <name>tatrafone</name>
   <dependencies>
     <dependency>
@@ -18,6 +19,13 @@
       <version>2.7.5</version>
     </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <id>guvnor-m2-repo</id>
+      <name>Guvnor M2 Repo</name>
+      <url>http://localhost:8080/jbpm-console/maven2/</url>
+    </repository>
+  </repositories>
   <build>
     <plugins>
       <plugin>
