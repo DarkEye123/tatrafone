@@ -30,7 +30,7 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new fi.muni.pv207.tatrafone.processes.aliancemembership.handler.ValidateEmailServiceHandler()</identifier>
+            <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.ValidateEmailServiceHandler()</identifier>
             <parameters/>
             <name>ValidateEmailService</name>
         </work-item-handler>
