@@ -14,6 +14,8 @@ public class ClientRequest implements java.io.Serializable
    private java.lang.String companyName;
    private java.lang.String companyDescription;
    private String coopGain;
+   @org.kie.api.definition.type.Label(value = "Reason of the Decision")
+   private java.lang.String evaluationOfPartnership;
 
    private java.lang.String email;
 
@@ -61,14 +63,25 @@ public class ClientRequest implements java.io.Serializable
       this.email = email;
    }
 
+   public java.lang.String getEvaluationOfPartnership()
+   {
+      return this.evaluationOfPartnership;
+   }
+
+   public void setEvaluationOfPartnership(java.lang.String evaluationOfPartnership)
+   {
+      this.evaluationOfPartnership = evaluationOfPartnership;
+   }
+
    public ClientRequest(java.lang.String companyName,
          java.lang.String companyDescription, java.lang.String coopGain,
-         java.lang.String email)
+         java.lang.String email, String evaluationOfPartnership)
    {
       this.companyName = companyName;
       this.companyDescription = companyDescription;
       this.coopGain = coopGain;
       this.email = email;
+      this.evaluationOfPartnership = evaluationOfPartnership;
    }
 
 }
