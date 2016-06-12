@@ -13,8 +13,11 @@ public class StoreClientServiceHandler implements WorkItemHandler{
 
     @Override
     public void executeWorkItem(WorkItem workItem, WorkItemManager manager) {
+        String evaluation = (String) workItem.getParameter("EvaluationOfPartnership");
         ClientRequest request = (ClientRequest) workItem.getParameter("ClientDescription");
+        request.setEvaluationOfPartnership(evaluation);
         AllianceDatabase.addClient(request);
+
     }
 
     @Override
