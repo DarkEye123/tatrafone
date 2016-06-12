@@ -12,9 +12,9 @@ import java.util.HashMap;
 /**
  * @author darkeye
  */
-public class EmailServiceHandler extends EmailWorkItemHandler {
+public class EmailServiceAllianceHandler extends EmailWorkItemHandler {
 
-    public EmailServiceHandler(String host, String port, String userName, String password) {
+    public EmailServiceAllianceHandler(String host, String port, String userName, String password) {
         super(host, port, userName, password);
     }
 
