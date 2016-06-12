@@ -23,32 +23,32 @@
             <name>WebService</name>
         </work-item-handler>
         <work-item-handler>
-            <resolver>reflection</resolver>
-            <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.EmailServiceHandler()</identifier>
+            <resolver>mvel</resolver>
+            <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.EmailServiceHandler("localhost","2525","","")</identifier>
             <parameters>
                 <parameter xsi:type="objectModel">
-                    <resolver>reflection</resolver>
+                    <resolver>mvel</resolver>
                     <identifier>java.lang.String</identifier>
                     <parameters>
                         <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">localhost</parameter>
                     </parameters>
                 </parameter>
                 <parameter xsi:type="objectModel">
-                    <resolver>reflection</resolver>
+                    <resolver>mvel</resolver>
                     <identifier>java.lang.String</identifier>
                     <parameters>
                         <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">2525</parameter>
                     </parameters>
                 </parameter>
                 <parameter xsi:type="objectModel">
-                    <resolver>reflection</resolver>
+                    <resolver>mvel</resolver>
                     <identifier>java.lang.String</identifier>
                     <parameters>
                         <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"></parameter>
                     </parameters>
                 </parameter>
                 <parameter xsi:type="objectModel">
-                    <resolver>reflection</resolver>
+                    <resolver>mvel</resolver>
                     <identifier>java.lang.String</identifier>
                     <parameters>
                         <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"></parameter>
@@ -74,6 +74,12 @@
             <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.ValidateEmailServiceHandler()</identifier>
             <parameters/>
             <name>ValidateEmailService</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("localhost", "25", "", "")</identifier>
+            <parameters/>
+            <name>Email</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
