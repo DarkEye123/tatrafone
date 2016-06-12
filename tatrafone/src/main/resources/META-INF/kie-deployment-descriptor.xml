@@ -24,7 +24,31 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.EmailServiceHandler("localhost","2525","","")</identifier>
+            <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
+            <parameters/>
+            <name>Log</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler(ksession, classLoader)</identifier>
+            <parameters/>
+            <name>Service Task</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.ValidateEmailServiceHandler()</identifier>
+            <parameters/>
+            <name>ValidateEmailService</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("localhost", "25", "", "")</identifier>
+            <parameters/>
+            <name>Email</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.EmailServiceAllianceHandler("localhost","2525","","")</identifier>
             <parameters>
                 <parameter xsi:type="objectModel">
                     <resolver>mvel</resolver>
@@ -55,31 +79,7 @@
                     </parameters>
                 </parameter>
             </parameters>
-            <name>EmailService</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
-            <parameters/>
-            <name>Log</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler(ksession, classLoader)</identifier>
-            <parameters/>
-            <name>Service Task</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.ValidateEmailServiceHandler()</identifier>
-            <parameters/>
-            <name>ValidateEmailService</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("localhost", "25", "", "")</identifier>
-            <parameters/>
-            <name>Email</name>
+            <name>EmailServiceAlliance</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
