@@ -20,6 +20,22 @@ public class AllianceDatabase {
         return database;
     }
 
+    public ClientRequest getClientbyName(String name) {
+        for (ClientRequest req : this.database) {
+            if (req.getCompanyName().equals(name))
+                return req;
+        }
+        return null;
+    }
+
+    public ClientRequest getClientbyEmail(String email) {
+        for (ClientRequest req : this.database) {
+            if (req.getEmail().equals(email))
+                return req;
+        }
+        return null;
+    }
+
     public void addClient(ClientRequest request) {
         this.database.add(request);
     }
