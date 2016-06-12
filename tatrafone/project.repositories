@@ -3,17 +3,25 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/home/darkeye/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
+        <id>guvnor-m2-repo</id>
+        <url>http://localhost:8080/jbpm-console/maven2/</url>
         <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/home/darkeye/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
