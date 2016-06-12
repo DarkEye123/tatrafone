@@ -53,7 +53,7 @@
             <name>Rest</name>
         </work-item-handler>
         <work-item-handler>
-            <resolver>Enter resolver type</resolver>
+            <resolver>mvel</resolver>
             <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.StoreClientServiceHandler()</identifier>
             <parameters/>
             <name>StoreClientService</name>
