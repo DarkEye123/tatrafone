@@ -90,6 +90,7 @@ import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
       "To" : new StringDataType(),
       "Subject" : new StringDataType(),
       "Body" : new StringDataType()
+      "i_client_request": new ObjectDataType()
     ],
     "displayName" : "EmailService",
     "icon" : "defaultemailicon.gif"
