@@ -299,7 +299,7 @@
       </bpmn2:dataOutputAssociation>
       <bpmn2:dataOutputAssociation id="_Wy2ysjDuEea5Uu53wG2y8Q">
         <bpmn2:sourceRef>_B8351B99-EB2B-491C-A760-E70770656CDA_o_topicOutputX</bpmn2:sourceRef>
-        <bpmn2:targetRef>topic_of_meeting</bpmn2:targetRef>
+        <bpmn2:targetRef>topic_of_agreement</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
       <bpmn2:potentialOwner id="_Wy2yszDuEea5Uu53wG2y8Q">
         <bpmn2:resourceAssignmentExpression id="_Wy2ytDDuEea5Uu53wG2y8Q">
