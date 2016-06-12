@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class AllianceDatabase {
 
     private static ArrayList<ClientRequest> database = new ArrayList<ClientRequest>();
-    private static ClientRequest request = new ClientRequest("Tojota", "We made cars", "You will make money", "tojota@tojota.com"); //just an example
+    private static ClientRequest request = new ClientRequest("Tojota", "We made cars", "You will make money", "tojota@tojota.com", "Yep, this is good partner"); //just an example
 
     static {
         database.add(request);
