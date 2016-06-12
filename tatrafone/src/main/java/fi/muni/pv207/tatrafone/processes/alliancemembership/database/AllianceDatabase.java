@@ -9,34 +9,35 @@ import java.util.ArrayList;
  */
 public class AllianceDatabase {
 
-    private ArrayList<ClientRequest> database = new ArrayList<ClientRequest>();
+    private static ArrayList<ClientRequest> database = new ArrayList<ClientRequest>();
+    private static ClientRequest request = new ClientRequest("Tojota", "We made cars", "You will make money", "tojota@tojota.com"); //just an example
 
-    public AllianceDatabase() {
-        ClientRequest request = new ClientRequest("Tojota", "We made cars", "You will make money", "tojota@tojota.com"); //just an example
+    static {
+        database.add(request);
     }
 
 
-    public ArrayList<ClientRequest> getDatabase() {
+    public static ArrayList<ClientRequest> getDatabase() {
         return database;
     }
 
-    public ClientRequest getClientbyName(String name) {
-        for (ClientRequest req : this.database) {
+    public static ClientRequest getClientbyName(String name) {
+        for (ClientRequest req : database) {
             if (req.getCompanyName().equals(name))
                 return req;
         }
         return null;
     }
 
-    public ClientRequest getClientbyEmail(String email) {
-        for (ClientRequest req : this.database) {
+    public static ClientRequest getClientbyEmail(String email) {
+        for (ClientRequest req : database) {
             if (req.getEmail().equals(email))
                 return req;
         }
         return null;
     }
 
-    public void addClient(ClientRequest request) {
-        this.database.add(request);
+    public static void addClient(ClientRequest request) {
+        database.add(request);
     }
 }
