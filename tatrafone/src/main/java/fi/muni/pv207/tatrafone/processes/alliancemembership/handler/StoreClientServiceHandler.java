@@ -17,6 +17,7 @@ public class StoreClientServiceHandler implements WorkItemHandler{
         ClientRequest request = (ClientRequest) workItem.getParameter("ClientDescription");
         request.setEvaluationOfPartnership(evaluation);
         AllianceDatabase.addClient(request);
+        manager.completeWorkItem(workItem.getId(), null);
 
     }
 
