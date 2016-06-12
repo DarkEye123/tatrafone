@@ -5,7 +5,6 @@
   <groupId>fi.muni.pv207.tatrafone</groupId>
   <artifactId>tatrafone</artifactId>
   <version>1.0</version>
-  <packaging>jar</packaging>
   <name>tatrafone</name>
   <properties>
     <version.org.kie>6.4.0.Final</version.org.kie>
@@ -83,21 +82,6 @@
       <artifactId>jbpm-human-task-core</artifactId>
       <version>6.4.0.Final</version>
     </dependency>
-    <!--<dependency>-->
-      <!--<groupId>org.jbpm</groupId>-->
-      <!--<artifactId>jbpm-services</artifactId>-->
-      <!--<version>6.4.0.Final</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.jbpm</groupId>-->
-      <!--<artifactId>jbpm-human-task</artifactId>-->
-      <!--<version>6.4.0.Final</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.jbpm</groupId>-->
-      <!--<artifactId>jbpm</artifactId>-->
-      <!--<version>6.4.0.Final</version>-->
-    <!--</dependency>-->
     <dependency>
       <groupId>org.jbpm</groupId>
       <artifactId>jbpm-human-task-workitems</artifactId>
