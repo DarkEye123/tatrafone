@@ -24,6 +24,12 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
+            <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.EmailServiceHandler()</identifier>
+            <parameters/>
+            <name>EmailService</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
             <parameters/>
             <name>Log</name>
