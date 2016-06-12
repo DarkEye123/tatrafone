@@ -84,14 +84,14 @@ import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
   
      
   [
-    "name" : "EmailService",
+    "name" : "EmailServiceAlliance",
     "parameters" : [
       "From" : new StringDataType(),
       "To" : new StringDataType(),
       "Subject" : new StringDataType(),
       "Body" : new StringDataType()
     ],
-    "displayName" : "EmailService",
+    "displayName" : "EmailServiceAlliance",
     "icon" : "defaultemailicon.gif"
   ]
 
