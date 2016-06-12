@@ -25,10 +25,6 @@ public class EmailServiceHandler extends EmailWorkItemHandler {
         } else {
             ClientRequest request = (ClientRequest) workItem.getParameter("i_client_request");
             workItem.getParameters().put("To", request.getEmail());
-            if (workItem.getParameters().get("Body").equals("")) {
-                workItem.getParameters().put("Body", request.getEvaluationOfPartnership());
-            }
-
             try {
                 Email e = createEmail(workItem, this.getConnection());
                 SendHtml.sendHtml(e, this.getDebugFlag(workItem));
