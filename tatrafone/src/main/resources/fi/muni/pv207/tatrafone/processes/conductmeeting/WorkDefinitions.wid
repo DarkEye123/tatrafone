@@ -56,21 +56,6 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
-  ],
-  
-    
-     
-  [
-    "name" : "EmailService",
-    "parameters" : [
-      "From" : new StringDataType(),
-      "To" : new StringDataType(),
-      "Subject" : new StringDataType(),
-      "Body" : new StringDataType()
-    ],
-    "displayName" : "EmailService",
-    "icon" : "defaultemailicon.gif"
   ]
-
-
+  
 ]
