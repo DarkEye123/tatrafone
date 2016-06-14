@@ -35,6 +35,7 @@
 <property name="rangeFormula" value="{Sklik, Sklik; AdWords, AdWords}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="=new java.lang.Date()"/>
 <property name="fieldClass" value="java.lang.String"/>
 <property name="onChangeScript" value="=if ({czech}) = &quot;yes&quot;
  then {Sklik,Sklik}"/>
