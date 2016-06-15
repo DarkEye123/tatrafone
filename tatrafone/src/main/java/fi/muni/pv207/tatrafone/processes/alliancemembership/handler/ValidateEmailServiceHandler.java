@@ -11,7 +11,7 @@ import java.util.HashMap;
  */
 public class ValidateEmailServiceHandler implements WorkItemHandler {
 
-    private EmailValidator validateEmail = new EmailValidator("9080", "/services/email");
+    private EmailValidator validateEmail = new EmailValidator();
 
     public void executeWorkItem(WorkItem workItem, WorkItemManager workItemManager) {
         ClientRequest request = (ClientRequest) workItem.getParameter("ClientDescription");
