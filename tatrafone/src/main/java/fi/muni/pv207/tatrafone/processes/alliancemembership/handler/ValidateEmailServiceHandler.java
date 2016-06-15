@@ -1,6 +1,6 @@
 package fi.muni.pv207.tatrafone.processes.alliancemembership.handler;
 import fi.muni.pv207.tatrafone.processes.alliancemembership.ClientRequest;
-import fi.muni.pv207.tatrafone.validators.EmailValidator;
+import fi.muni.pv207.tatrafone.processes.connection_builders.validators.EmailValidator;
 import org.kie.api.runtime.process.WorkItem;
 import org.kie.api.runtime.process.WorkItemHandler;
 import org.kie.api.runtime.process.WorkItemManager;
@@ -20,7 +20,7 @@ public class ValidateEmailServiceHandler implements WorkItemHandler {
         resultMap.put("Result", validation_success);
         System.out.println("SOM NA " + validation_success);
         if (validation_success.equals(Boolean.FALSE))
-            throw new fi.muni.pv207.tatrafone.validators.events.InvalidEmail();
+            throw new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.events.InvalidEmail();
         workItemManager.completeWorkItem(workItem.getId(), resultMap);
         return;
     }

@@ -4,7 +4,7 @@
   <bpmn2:itemDefinition id="_acceptableItem" structureRef="Boolean"/>
   <bpmn2:itemDefinition id="_reasonItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_log_variableItem" structureRef="String"/>
-  <bpmn2:error id="fi.muni.pv207.tatrafone.validators.events.InvalidEmail" errorCode="fi.muni.pv207.tatrafone.validators.events.InvalidEmail"/>
+  <bpmn2:error id="fi.muni.pv207.tatrafone.processes.alliancemembership.handler.events.InvalidEmail" errorCode="fi.muni.pv207.tatrafone.processes.alliancemembership.handler.events.InvalidEmail"/>
   <bpmn2:itemDefinition id="__74A29F67-7ECA-4175-B35B-4E65C632FD6C_TaskNameInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__74A29F67-7ECA-4175-B35B-4E65C632FD6C_i_client_requestInputXItem" structureRef="com.tatrafone.dataobjects.ClientRequest"/>
   <bpmn2:itemDefinition id="__74A29F67-7ECA-4175-B35B-4E65C632FD6C_SkippableInputXItem" structureRef="Object"/>
@@ -403,7 +403,7 @@ kcontext.setVariable("log_variable",request.getCompanyName());]]></drools:script
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:outgoing>_9139D29E-6B3A-4AD3-9B3B-2D30ED44DD0F</bpmn2:outgoing>
-      <bpmn2:errorEventDefinition id="_f-c-dDD5Eeaw36ix7cl_rQ" drools:erefname="fi.muni.pv207.tatrafone.validators.events.InvalidEmail" errorRef="fi.muni.pv207.tatrafone.validators.events.InvalidEmail"/>
+      <bpmn2:errorEventDefinition id="_f-c-dDD5Eeaw36ix7cl_rQ" drools:erefname="fi.muni.pv207.tatrafone.processes.alliancemembership.handler.events.InvalidEmail" errorRef="fi.muni.pv207.tatrafone.processes.alliancemembership.handler.events.InvalidEmail"/>
     </bpmn2:boundaryEvent>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="_f-c-dTD5Eeaw36ix7cl_rQ">
