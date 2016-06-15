@@ -21,8 +21,14 @@ public class CampaignRequirement implements java.io.Serializable
    @org.kie.api.definition.type.Label("Result of the campaign")
    private java.lang.Boolean result;
 
-   @org.kie.api.definition.type.Label(value = "Campaign provider")
+   @org.kie.api.definition.type.Label("Campaign provider")
    private java.lang.String provider;
+
+   @org.kie.api.definition.type.Label(value = "Cost in Millions of Euros")
+   private java.lang.Double cost;
+
+   @org.kie.api.definition.type.Label(value = "Income in Millions of Euro")
+   private java.lang.Double income;
 
    public CampaignRequirement()
    {
@@ -88,9 +94,30 @@ public class CampaignRequirement implements java.io.Serializable
       this.provider = provider;
    }
 
+   public java.lang.Double getCost()
+   {
+      return this.cost;
+   }
+
+   public void setCost(java.lang.Double cost)
+   {
+      this.cost = cost;
+   }
+
+   public java.lang.Double getIncome()
+   {
+      return this.income;
+   }
+
+   public void setIncome(java.lang.Double income)
+   {
+      this.income = income;
+   }
+
    public CampaignRequirement(java.lang.String czechReq, java.util.Date deadline,
          java.lang.String campaignName, java.lang.String motto,
-         java.lang.Boolean result, java.lang.String provider)
+         java.lang.Boolean result, java.lang.String provider,
+         java.lang.Double cost, java.lang.Double income)
    {
       this.czechReq = czechReq;
       this.deadline = deadline;
@@ -98,6 +125,8 @@ public class CampaignRequirement implements java.io.Serializable
       this.motto = motto;
       this.result = result;
       this.provider = provider;
+      this.cost = cost;
+      this.income = income;
    }
 
 }
