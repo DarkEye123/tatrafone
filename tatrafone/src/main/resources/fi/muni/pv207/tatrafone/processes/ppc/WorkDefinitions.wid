@@ -83,14 +83,14 @@ import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
   ],
   
   [
-    "name" : "StoreMeasurementService",
+    "name" : "StoreUnitsService",
     "parameters" : [
         "Campaign" : new ObjectDataType()
     ],
      "results" : [
         "Result" : new ObjectDataType()
     ],
-    "displayName" : "External Measurement Service",
+    "displayName" : "Store Units Service",
     "icon" : "defaultservicenodeicon.png"
   ]
 
