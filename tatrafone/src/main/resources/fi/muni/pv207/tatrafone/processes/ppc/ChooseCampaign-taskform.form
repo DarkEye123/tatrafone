@@ -26,18 +26,15 @@
 </field>
 <field position="2" name="provider" type="InputText" id="1531832744">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Available Campaign Providersquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Available Campaign Providersquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="formula" value="=if ({czech}) = &quot;yes&quot;  then {Sklik,Sklik}"/>
 <property name="rangeFormula" value="{Sklik, Sklik; AdWords, AdWords}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value="=new java.util.Date()"/>
 <property name="outputBinding" value="o_provider"/>
 <property name="fieldClass" value="java.lang.String"/>
-<property name="onChangeScript" value="=if ({czech}) = &quot;yes&quot;  then {Sklik,Sklik}"/>
 </field>
 <field position="3" name="420432460" type="InputText" id="420432460">
 <property name="fieldRequired" value="false"/>
