@@ -3,6 +3,8 @@
     <imports>
       <import>
         <type>java.lang.Number</type>
+      </import>
+      <import>
         <type>javafx.util.Pair</type>
       </import>
     </imports>
