@@ -1,6 +1,6 @@
 import org.drools.core.process.core.datatype.impl.type.StringDataType;
 import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
-
+import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
 [
   [
     "name" : "Email",
@@ -55,6 +55,18 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
         "Result" : new ObjectDataType(),
     ],
     "displayName" : "REST",
+    "icon" : "defaultservicenodeicon.png"
+  ]
+  
+  [
+    "name" : "AnalysisExternalService",
+    "parameters" : [
+        "Campaign" : new ObjectDataType()
+    ],
+     "results" : [
+        "Result" : new ObjectDataType()
+    ],
+    "displayName" : "Analysis External Service",
     "icon" : "defaultservicenodeicon.png"
   ]
 
