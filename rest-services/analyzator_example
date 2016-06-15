@@ -1,0 +1,5 @@
+ok:
+curl --request  GET 'http://localhost:9080/services/analyzator?cost=2.5&income=27'
+
+bad:
+curl --request  GET 'http://localhost:9080/services/analyzator?cost=2.5&income=21'
