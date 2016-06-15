@@ -18,8 +18,11 @@ public class CampaignRequirement implements java.io.Serializable
    @org.kie.api.definition.type.Label("Motto of the campaign")
    private java.lang.String motto;
 
-   @org.kie.api.definition.type.Label(value = "Result of the campaign")
+   @org.kie.api.definition.type.Label("Result of the campaign")
    private java.lang.Boolean result;
+
+   @org.kie.api.definition.type.Label(value = "Campaign provider")
+   private java.lang.String provider;
 
    public CampaignRequirement()
    {
@@ -75,15 +78,26 @@ public class CampaignRequirement implements java.io.Serializable
       this.result = result;
    }
 
+   public java.lang.String getProvider()
+   {
+      return this.provider;
+   }
+
+   public void setProvider(java.lang.String provider)
+   {
+      this.provider = provider;
+   }
+
    public CampaignRequirement(java.lang.String czechReq, java.util.Date deadline,
          java.lang.String campaignName, java.lang.String motto,
-         java.lang.Boolean result)
+         java.lang.Boolean result, java.lang.String provider)
    {
       this.czechReq = czechReq;
       this.deadline = deadline;
       this.campaignName = campaignName;
       this.motto = motto;
       this.result = result;
+      this.provider = provider;
    }
 
 }
