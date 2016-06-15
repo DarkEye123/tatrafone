@@ -56,7 +56,7 @@ import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
-  ]
+  ],
   
   [
     "name" : "AnalysisExternalService",
