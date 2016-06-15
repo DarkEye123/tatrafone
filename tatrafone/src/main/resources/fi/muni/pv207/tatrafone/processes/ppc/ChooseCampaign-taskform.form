@@ -34,6 +34,7 @@
 <property name="rangeFormula" value="{Sklik, Sklik; AdWords, AdWords}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="AdWords"/>
 <property name="outputBinding" value="o_provider"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
