@@ -14,17 +14,16 @@ import javax.ws.rs.core.Response;
  */
 
 @Path("/")
-public class EmailService {
+public class CampaignStatusEvaluator {
 
-    private static final Logger logger = LoggerFactory.getLogger(EmailService.class);
+    private static final Logger logger = LoggerFactory.getLogger(CampaignStatusEvaluator.class);
 
     @GET
-    @Path("email")
-    public Response validateEmail(@QueryParam("email") String email) {
-        logger.info("email=" + email);
+    @Path("evaluator")
+    public Response evaluateStatus(@QueryParam("cost") Double cost, @QueryParam("income") Double income) {
+        logger.info("cost=" + cost + " income=" + income);
 
-        EmailValidator emailValidator = EmailValidator.getInstance();
-        return emailValidator.isValid(email) ? Response.ok().build() :
+        return income > cost ? Response.ok().build() :
                 Response.status(Response.Status.FORBIDDEN).build();
     }
 }

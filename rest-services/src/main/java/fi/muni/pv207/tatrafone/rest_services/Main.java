@@ -31,13 +31,17 @@ public class Main extends Application<AppConfiguration> {
     }
 
     private void addRestServices(JerseyEnvironment jerseyEnvironment, AppConfiguration configuration) {
-        final EmailService restPing = new EmailService();
-        jerseyEnvironment.register(restPing);
+        final EmailService validateRestService = new EmailService();
+        final CampaignStatusEvaluator campaingEvaluator = new CampaignStatusEvaluator();
+        final CampaignStatusAnalyser campaignAnalyzator = new CampaignStatusAnalyser();
+        jerseyEnvironment.register(validateRestService);
+        jerseyEnvironment.register(campaingEvaluator);
+        jerseyEnvironment.register(campaignAnalyzator);
     }
 
     @Override
     public String getName() {
-        return "WanderaNotificationService";
+        return "REST deployment for pv207";
     }
 
     public static void configureObjectMapper(ObjectMapper mapper) {
