@@ -44,10 +44,10 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
-<property name="formula" value="={provider}.equals(&quot;AdWords&quot;) ? &quot;adwords@gmail.com&quot; : &quot;sklik@gmail.com&quot;"/>
+<property name="formula" value="={provider}+&quot;@gmail.com&quot;"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value="={provider}.equals(&quot;AdWords&quot;) ? &quot;adwords@gmail.com&quot; : &quot;sklik@gmail.com&quot;"/>
+<property name="defaultValueFormula" value="={provider}+&quot;@gmail.com&quot;"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 </form>
