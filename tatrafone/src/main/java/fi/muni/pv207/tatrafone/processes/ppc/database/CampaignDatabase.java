@@ -1,7 +1,5 @@
 package fi.muni.pv207.tatrafone.processes.ppc.database;
 
-import javafx.util.Pair;
-
 import java.util.ArrayList;
 
 /**
@@ -9,15 +7,23 @@ import java.util.ArrayList;
  */
 public class CampaignDatabase {
 
-    private ArrayList<Pair<Double, Double>> database = new ArrayList<>();
+    class Pair { // Pair as a javafx class was problematic
+        Double cost;
+        Double income;
+        Pair(Double cost, Double income){
+            this.cost = cost;
+            this.income = income;
+        }
+    }
+
+    private ArrayList<Pair> database = new ArrayList<>();
 
     public void addCostIncome(double cost, double income){
-        database.add(new Pair<>(cost, income));
+        database.add(new Pair(cost, income));
     }
 
-    public ArrayList<Pair<Double, Double>>  getDatabase() {
+    public ArrayList<Pair>  getDatabase() {
         return database;
     }
-
 
 }
