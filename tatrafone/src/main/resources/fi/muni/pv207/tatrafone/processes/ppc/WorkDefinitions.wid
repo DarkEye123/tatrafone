@@ -59,7 +59,19 @@ import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
   ],
   
   [
-    "name" : "AnalysisExternalService",
+    "name" : "ExternalEvaluationService",
+    "parameters" : [
+        "Campaign" : new ObjectDataType()
+    ],
+     "results" : [
+        "Result" : new ObjectDataType()
+    ],
+    "displayName" : "External Evaluation Service",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "ExternalAnalysisService",
     "parameters" : [
         "Campaign" : new ObjectDataType()
     ],
@@ -67,6 +79,18 @@ import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
         "Result" : new ObjectDataType()
     ],
     "displayName" : "External Analysis Service",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "StoreMeasurementService",
+    "parameters" : [
+        "Campaign" : new ObjectDataType()
+    ],
+     "results" : [
+        "Result" : new ObjectDataType()
+    ],
+    "displayName" : "External Measurement Service",
     "icon" : "defaultservicenodeicon.png"
   ]
 
