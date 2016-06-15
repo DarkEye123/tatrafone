@@ -31,7 +31,8 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="rangeFormula" value="{Sklik, Sklik; AdWords, AdWords}"/>
+<property name="formula" value="={czech}==&quot;yes&quot; ?{Sklik, Sklik} : &quot;mol&quot;"/>
+<property name="rangeFormula" value="=if({czech}.equals(&quot;yes&quot;)) return {Sklik, Sklik; AdWords, AdWords};"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value="AdWords"/>
