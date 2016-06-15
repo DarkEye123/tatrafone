@@ -9,14 +9,17 @@ public class CampaignRequirement implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Only Czech language?")
+   @org.kie.api.definition.type.Label("Only Czech language?")
    private java.lang.String czechReq;
-   @org.kie.api.definition.type.Label(value = "Deadline")
+   @org.kie.api.definition.type.Label("Deadline")
    private java.util.Date deadline;
-   @org.kie.api.definition.type.Label(value = "Name of the campaign")
+   @org.kie.api.definition.type.Label("Name of the campaign")
    private java.lang.String campaignName;
-   @org.kie.api.definition.type.Label(value = "Motto of the campaign")
+   @org.kie.api.definition.type.Label("Motto of the campaign")
    private java.lang.String motto;
+
+   @org.kie.api.definition.type.Label(value = "Result of the campaign")
+   private java.lang.Boolean result;
 
    public CampaignRequirement()
    {
@@ -62,14 +65,25 @@ public class CampaignRequirement implements java.io.Serializable
       this.motto = motto;
    }
 
-   public CampaignRequirement(java.lang.String czechReq,
-         java.util.Date deadline, java.lang.String campaignName,
-         java.lang.String motto)
+   public java.lang.Boolean getResult()
+   {
+      return this.result;
+   }
+
+   public void setResult(java.lang.Boolean result)
+   {
+      this.result = result;
+   }
+
+   public CampaignRequirement(java.lang.String czechReq, java.util.Date deadline,
+         java.lang.String campaignName, java.lang.String motto,
+         java.lang.Boolean result)
    {
       this.czechReq = czechReq;
       this.deadline = deadline;
       this.campaignName = campaignName;
       this.motto = motto;
+      this.result = result;
    }
 
 }
