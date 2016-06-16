@@ -80,6 +80,7 @@
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="outputBinding" value="o_camp/motto"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 </form>
