@@ -35,7 +35,7 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="defaultValueFormula" value="=&quot;AdWords&quot;"/>
-<property name="outputBinding" value="o_provider"/>
+<property name="outputBinding" value="o_camp/campaignName"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="3" name="420432460" type="InputText" id="420432460">
