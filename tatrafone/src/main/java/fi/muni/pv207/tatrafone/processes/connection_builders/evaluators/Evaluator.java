@@ -10,7 +10,7 @@ public class Evaluator extends RequestBuilder {
     }
 
     public boolean isDoingWell(Double cost, Double income) {
-        String url = "http://localhost:" + this.port + this.url + "?cost="+ cost +"?income=" + income;
+        String url = "http://localhost:" + this.port + this.url + "?cost="+ cost +"&income=" + income;
         return buildRequest(url);
     }
 }
