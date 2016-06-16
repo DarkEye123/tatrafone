@@ -23,10 +23,40 @@
             <name>WebService</name>
         </work-item-handler>
         <work-item-handler>
+            <resolver>Enter resolver type</resolver>
+            <identifier>fi.muni.pv207.tatrafone.processes.ppc.handler.ExternalEvaluationHandler()</identifier>
+            <parameters/>
+            <name>ExternalEvaluationService</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.ValidateEmailServiceHandler()</identifier>
+            <parameters/>
+            <name>ValidateEmailService</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>Enter resolver type</resolver>
+            <identifier>fi.muni.pv207.tatrafone.processes.ppc.handler.CampaignDatabaseHandler()</identifier>
+            <parameters/>
+            <name>StoreUnitsService</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>Enter resolver type</resolver>
+            <identifier>fi.muni.pv207.tatrafone.processes.ppc.handler.PPCEmailHandler("localhost", "2525", "", "")</identifier>
+            <parameters/>
+            <name>PPCEmail</name>
+        </work-item-handler>
+        <work-item-handler>
             <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler()</identifier>
             <parameters/>
             <name>Log</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>Enter resolver type</resolver>
+            <identifier>fi.muni.pv207.tatrafone.processes.ppc.handler.ExternalAnalysisHandler()</identifier>
+            <parameters/>
+            <name>ExternalAnalysisService</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
@@ -39,12 +69,6 @@
             <identifier>new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler(ksession, classLoader)</identifier>
             <parameters/>
             <name>Service Task</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new fi.muni.pv207.tatrafone.processes.alliancemembership.handler.ValidateEmailServiceHandler()</identifier>
-            <parameters/>
-            <name>ValidateEmailService</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
