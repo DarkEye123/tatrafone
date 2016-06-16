@@ -2,6 +2,7 @@ package fi.muni.pv207.tatrafone.processes.ppc.handler;
 
 import fi.muni.pv207.tatrafone.processes.alliancemembership.ClientRequest;
 import fi.muni.pv207.tatrafone.processes.ppc.CampaignRequirement;
+import org.jbpm.process.instance.impl.demo.SystemOutWorkItemHandler;
 import org.jbpm.process.workitem.email.Email;
 import org.jbpm.process.workitem.email.EmailWorkItemHandler;
 import org.jbpm.process.workitem.email.SendHtml;
@@ -25,6 +26,8 @@ public class PPCEmailHandler extends EmailWorkItemHandler {
             throw new IllegalArgumentException("Connection not initialized for Email");
         } else {
             CampaignRequirement requirement = (CampaignRequirement) workItem.getParameter("Campaign");
+            System.out.println("requirement " + requirement);
+            System.out.println("requirement email " + requirement.getEmail());
             workItem.getParameters().put("To", requirement.getEmail());
             try {
                 Email e = createEmail(workItem, this.getConnection());
