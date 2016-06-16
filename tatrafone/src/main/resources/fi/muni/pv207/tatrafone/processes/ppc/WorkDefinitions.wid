@@ -92,6 +92,18 @@ import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
     ],
     "displayName" : "Store Units Service",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "PPCEmail",
+    "parameters" : [
+      "From" : new StringDataType(),
+      "To" : new StringDataType(),
+      "Subject" : new StringDataType(),
+      "Body" : new StringDataType()
+    ],
+    "displayName" : "PPCEmail",
+    "icon" : "defaultemailicon.gif"
   ]
 
 ]
