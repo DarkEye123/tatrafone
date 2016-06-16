@@ -25,6 +25,10 @@ public class ExternalEvaluationHandler implements WorkItemHandler {
         Double cost = Double.parseDouble(values[0]);
         Double income = Double.parseDouble(values[1]);
 
+        if (campaignRequest.getCost() == null) {
+            campaignRequest.setCost(0.);
+            campaignRequest.setIncome(0.);
+        }
         campaignRequest.setCost(campaignRequest.getCost() + cost);
         campaignRequest.setIncome(campaignRequest.getIncome() + income); // adding
 
