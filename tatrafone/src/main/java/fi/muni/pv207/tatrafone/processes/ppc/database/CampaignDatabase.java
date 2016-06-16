@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class CampaignDatabase {
 
-    class Pair { // Pair as a javafx class was problematic
+    static class Pair { // Pair as a javafx class was problematic
         Double cost;
         Double income;
         Pair(Double cost, Double income){
@@ -16,13 +16,13 @@ public class CampaignDatabase {
         }
     }
 
-    private ArrayList<Pair> database = new ArrayList<>();
+    private static ArrayList<Pair> database = new ArrayList<>();
 
-    public void addCostIncome(double cost, double income){
+    public static void addCostIncome(double cost, double income){
         database.add(new Pair(cost, income));
     }
 
-    public ArrayList<Pair>  getDatabase() {
+    public static ArrayList<Pair>  getDatabase() {
         return database;
     }
 
