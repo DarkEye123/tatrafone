@@ -23,7 +23,7 @@
             <name>WebService</name>
         </work-item-handler>
         <work-item-handler>
-            <resolver>Enter resolver type</resolver>
+            <resolver>mvel</resolver>
             <identifier>new fi.muni.pv207.tatrafone.processes.ppc.handler.ExternalEvaluationHandler()</identifier>
             <parameters/>
             <name>ExternalEvaluationService</name>
@@ -35,13 +35,13 @@
             <name>ValidateEmailService</name>
         </work-item-handler>
         <work-item-handler>
-            <resolver>Enter resolver type</resolver>
+            <resolver>mvel</resolver>
             <identifier>new fi.muni.pv207.tatrafone.processes.ppc.handler.CampaignDatabaseHandler()</identifier>
             <parameters/>
             <name>StoreUnitsService</name>
         </work-item-handler>
         <work-item-handler>
-            <resolver>Enter resolver type</resolver>
+            <resolver>mvel</resolver>
             <identifier>new fi.muni.pv207.tatrafone.processes.ppc.handler.PPCEmailHandler("localhost", "2525", "", "")</identifier>
             <parameters/>
             <name>PPCEmail</name>
@@ -53,7 +53,7 @@
             <name>Log</name>
         </work-item-handler>
         <work-item-handler>
-            <resolver>Enter resolver type</resolver>
+            <resolver>mvel</resolver>
             <identifier>new fi.muni.pv207.tatrafone.processes.ppc.handler.ExternalAnalysisHandler()</identifier>
             <parameters/>
             <name>ExternalAnalysisService</name>
